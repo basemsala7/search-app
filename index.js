@@ -72,7 +72,7 @@ function initialGet() {
         Some quick example text to build on the card title and make up the
         bulk of the card's content.
       </p>
-      <button class="btn btn-primary" onclick="showDetails('${index}')">Go somewhere</button>
+      <button class="btn btn-primary" onclick="showDetails('${index}')">Show Details</button>
     </div>
   </div>`)
       );
@@ -107,7 +107,7 @@ input.addEventListener("keyup", function getdata(e) {
         Some quick example text to build on the card title and make up the
         bulk of the card's content.
       </p>
-      <button  class="btn btn-primary" onclick="showDetails('${index}')" >Go somewhere</button>
+      <button  class="btn btn-primary" onclick="showDetails('${index}')" >Show Details</button>
     </div>
   </div>`)
   );
